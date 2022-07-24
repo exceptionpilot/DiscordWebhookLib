@@ -10,7 +10,7 @@
 ```
 
 **📚 Example:**
-```
+```java
         DWebhookMessage webhookMessage = new DWebhookMessage("YOUR WEBHOOK LINK!");
         webhookMessage.setAvatar("LINK FOR UR AVATAR!");
         webhookMessage.setUsername("DWebhook by Angekotzter");
