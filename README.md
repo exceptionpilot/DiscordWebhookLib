@@ -22,4 +22,3 @@ webhookMessage.build();
 
 # 🆘 Support:
 https://discord.gg/duhkBkJJQh
-d
