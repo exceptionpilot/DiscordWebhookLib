@@ -4,8 +4,6 @@ import net.blessedfoxx.dwebhook.exeptions.PostWebhookException;
 import net.blessedfoxx.dwebhook.exeptions.URLWebhookException;
 import org.json.JSONObject;
 
-import javax.net.ssl.HttpsURLConnection;
-import java.io.OutputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -72,22 +70,7 @@ public class DWebhookMessage {
 
             jsonObject.put("tts", tts);
 
-
-            HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
-            connection.addRequestProperty("Content-Type", "application/json");
-            connection.addRequestProperty("User-Agent", "Java-DWebhookAPI");
-            connection.setDoOutput(true);
-            connection.setRequestMethod("POST");
-
-            OutputStream stream = connection.getOutputStream();
-            stream.write(jsonObject.toString().getBytes());
-            stream.flush();
-            stream.close();
-
-            connection.getInputStream().close();
-            connection.disconnect();
-
-            jsonObject.clear();
+            JsonToDiscord.send(jsonObject, url);
 
             content = null;
             name = null;

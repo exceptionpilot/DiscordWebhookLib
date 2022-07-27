@@ -6,7 +6,7 @@
 
     <groupId>net.blessedfoxx</groupId>
     <artifactId>DWebhookAPI</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <dependencies>
         <dependency>
             <groupId>org.json</groupId>
@@ -19,5 +19,18 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>a0tp16a7lofoz-artifactory-primary-0-releases</name>
+            <url>https://dwebhook.jfrog.io/artifactory/default-maven-virtual</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>a0tp16a7lofoz-artifactory-primary-0-snapshots</name>
+            <url>https://dwebhook.jfrog.io/artifactory/default-maven-virtual</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
