@@ -23,18 +23,18 @@ webhookMessage.build();
 
 **🧬 Maven:**
 ```maven
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
    
-   <dependency>
-	    <groupId>com.github.BlessedFoxX</groupId>
-	    <artifactId>DiscordWebhookAPI</artifactId>
-	    <version>Tag</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.BlessedFoxX</groupId>
+    <artifactId>DiscordWebhookAPI</artifactId>
+    <version>Tag</version>
+</dependency>
 ```
 
 # 🆘 Support:
