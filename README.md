@@ -22,6 +22,8 @@ webhookMessage.build();
 ```
 
 
+
+
 **🧬 Maven:**
 ```xml
 <repositories>
@@ -41,18 +43,20 @@ webhookMessage.build();
 
 **🔧 Gradle:**
 ```gradle
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
-   
+}
+  
 
-	dependencies {
-	        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:Tag'
-	}
+dependencies {
+        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:Tag'
+}
 ```
+
+
 
 # 🆘 Support:
 https://discord.gg/duhkBkJJQh
