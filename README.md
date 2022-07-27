@@ -1,10 +1,11 @@
 # DiscordWebhookAPI
+[![Release](https://jitpack.io/v/User/Repo.svg)](https://jitpack.io/#BlessedFoxX/DiscordWebhookAPI)
 
 **👨🏻‍🚀  About us:**
 
 ```
 👨🏻‍💻 Developer: Sebastian Zängler (Angekotzter#8677)
-⌛ Version: [![Release](https://jitpack.io/v/User/Repo.svg)](https://jitpack.io/#BlessedFoxX/DiscordWebhookAPI)
+⌛ Version: 
 👯 Partner: conri.se/blessedfoxx
    Official Partner for Cloud Hosting!
 ```
