@@ -22,7 +22,7 @@ webhookMessage.build();
 
 
 **🧬 Maven:**
-```maven
+```mvm
 <repositories>
 	<repository>
 	    <id>jitpack.io</id>
