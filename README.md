@@ -22,7 +22,7 @@ webhookMessage.build();
 
 
 **🧬 Maven:**
-```mvn
+```maven
 <repositories>
 	<repository>
 	    <id>jitpack.io</id>
@@ -38,7 +38,7 @@ webhookMessage.build();
 </dependency>
 ```
 
-**🧬 Gradle:**
+**🔧 Gradle:**
 ```gradle
 	allprojects {
 		repositories {
