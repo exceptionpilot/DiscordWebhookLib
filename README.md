@@ -30,11 +30,27 @@ webhookMessage.build();
 	</repository>
 </repositories>
    
+
 <dependency>
     <groupId>com.github.BlessedFoxX</groupId>
     <artifactId>DiscordWebhookAPI</artifactId>
     <version>Tag</version>
 </dependency>
+```
+
+**🧬 Gradle:**
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+   
+
+	dependencies {
+	        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:Tag'
+	}
 ```
 
 # 🆘 Support:
