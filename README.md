@@ -34,7 +34,7 @@ webhookMessage.build();
 <dependency>
     <groupId>com.github.BlessedFoxX</groupId>
     <artifactId>DiscordWebhookAPI</artifactId>
-    <version>Tag</version>
+    <version>Release Version</version>
 </dependency>
 ```
 
@@ -49,7 +49,7 @@ allprojects {
   
 
 dependencies {
-        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:Tag'
+        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:Release Version'
 }
 ```
 
