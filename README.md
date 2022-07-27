@@ -21,9 +21,6 @@ webhookMessage.setTTS(false);
 webhookMessage.build();
 ```
 
-
-
-
 **🧬 Maven:**
 ```xml
 <repositories>
@@ -55,8 +52,6 @@ dependencies {
         implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:Tag'
 }
 ```
-
-
 
 # 🆘 Support:
 https://discord.gg/duhkBkJJQh
