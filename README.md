@@ -14,7 +14,7 @@
 ```java
 // Sending a Text Message with the API
 DWebhookMessage webhookMessage = new DWebhookMessage("!YOUR WEBHOOK LINK!");
-webhookMessage.setAvatar("max-mustermann.de/profil.png");
+webhookMessage.setAvatar("https://max-mustermann.de/profil.png");
 webhookMessage.setUsername("Max Mustermann");
 webhookMessage.setMessageContent("Hello World!");
 webhookMessage.setTTS(false);
@@ -34,7 +34,7 @@ webhookMessage.build();
 <dependency>
     <groupId>com.github.BlessedFoxX</groupId>
     <artifactId>DiscordWebhookAPI</artifactId>
-    <version>Release Version</version>
+    <version>x.y.z</version> <- Change this to latest version
 </dependency>
 ```
 
@@ -49,7 +49,7 @@ allprojects {
   
 
 dependencies {
-        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:Release Version'
+        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:x.y.z' <- Change this to latest version
 }
 ```
 
