@@ -34,7 +34,7 @@ webhookMessage.build();
 <dependency>
     <groupId>com.github.BlessedFoxX</groupId>
     <artifactId>DiscordWebhookAPI</artifactId>
-    <version>x.y.z</version> <- Change this to latest version
+    <version>x.y.z</version> <!-- Change this to latest version -->
 </dependency>
 ```
 
@@ -49,7 +49,7 @@ allprojects {
   
 
 dependencies {
-        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:x.y.z' <- Change this to latest version
+        implementation 'com.github.BlessedFoxX:DiscordWebhookAPI:x.y.z' <!-- Change this to latest version -->
 }
 ```
 
