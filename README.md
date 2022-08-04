@@ -10,8 +10,25 @@
    Official Partner for Cloud Hosting!
 ```
 
-**📚 Example:**
+**📚 Examples:**
+
+
 ```java
+// Register your Events!
+public static void main(String[] args) {
+	DWebhookAPI.addListener(new YourEvent);       
+}
+
+// Event class!
+class YourEvent implements WebhookEvent {
+	
+    @Override
+    public void onWebhookPerform() {
+        // Do something...
+    }
+}
+
+
 // Sending a Text Message with the API
 DWebhookMessage webhookMessage = new DWebhookMessage("!YOUR WEBHOOK LINK!");
 webhookMessage.setAvatar("https://max-mustermann.de/profil.png");
