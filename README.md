@@ -4,7 +4,6 @@
 **👨🏻‍🚀  About us:**
 
 ```
-👨🏻‍💻 Developer: Sebastian Zängler (Angekotzter#8677)
 ⌛ Version: 1.2.1
 👯 Partner: conri.se/blessedfoxx
    Official Partner for Cloud Hosting!
