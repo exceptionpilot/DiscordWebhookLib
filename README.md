@@ -5,7 +5,7 @@
 
 ```
 ⌛ Version: 1.2.1
-👯 Partner: conri.se/blessedfoxx
+👯 Partner: conri.se/travelgeeks
    Official Partner for Cloud Hosting!
 ```
 
