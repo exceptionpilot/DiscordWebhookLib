@@ -1,4 +1,4 @@
-# DiscordWebhookAPI
+# DiscordWebhookLib
 [![Release](https://jitpack.io/v/BlessedFoxX/DiscordWebhookAPI.svg)](https://jitpack.io/#BlessedFoxX/DiscordWebhookAPI)
 
 **👨🏻‍🚀  About us:**
